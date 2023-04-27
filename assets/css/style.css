@@ -1,0 +1,131 @@
+body {
+    background-color: rgb(6, 6, 6);
+}
+
+font-family {
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Lobster', cursive;
+}
+
+navbar brand {
+    shape-image-threshold: 0.5;
+    ;
+}
+
+h5 {
+    text-align: center;
+}
+
+#carouselExampleIndicators {
+    text-align: justify;
+}
+
+#coltext {
+    font-weight: 65;
+    color: white;
+    padding: right;
+}
+
+.bluetop {
+    background: #17a2b8;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+container {
+    image-rendering: 5%;
+}
+
+.formulario {
+    text-align: center;
+    padding: 80px;
+}
+
+footer {
+    background-color: aqua;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  #fly-image {
+    position: relative;
+    transition: transform 0.5s;
+  }
+
+  #fly-image:hover {
+    transform: translateX(20px) translateY(-20px);
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
