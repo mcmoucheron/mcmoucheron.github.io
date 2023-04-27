@@ -52,15 +52,15 @@ footer {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
-  }
+}
 
-  .tooltip {
+.tooltip {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
-  }
-  
-  .tooltip .tooltiptext {
+}
+
+.tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
     background-color: #555;
@@ -75,9 +75,9 @@ footer {
     margin-left: -60px;
     opacity: 0;
     transition: opacity 0.3s;
-  }
-  
-  .tooltip .tooltiptext::after {
+}
+
+.tooltip .tooltiptext::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -86,29 +86,29 @@ footer {
     border-width: 5px;
     border-style: solid;
     border-color: #555 transparent transparent transparent;
-  }
-  
-  .tooltip:hover .tooltiptext {
+}
+
+.tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
-  }
+}
 
-  #fly-image {
+#fly-image {
     position: relative;
     transition: transform 0.5s;
-  }
+}
 
-  #fly-image:hover {
+#fly-image:hover {
     transform: translateX(20px) translateY(-20px);
-  }
+}
 
-  .tooltip {
+.tooltip {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
-  }
+}
 
-  .tooltip .tooltiptext {
+.tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
     background-color: #555;
@@ -123,9 +123,9 @@ footer {
     margin-left: -60px;
     opacity: 0;
     transition: opacity 0.3s;
-  }
-  
-  .tooltip:hover .tooltiptext {
+}
+
+.tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
-  }
+}
